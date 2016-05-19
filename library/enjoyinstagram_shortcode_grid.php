@@ -20,7 +20,7 @@ $pre_shortcode_content = "<div id=\"grid-".$i."\" class=\"ri-grid ri-grid-size-2
 
 	if (isHttps()) {
 		foreach ($result as $entry) {
-			$entry['images']['thumbnail']['url'] = str_replace('http://', 'https://', $entry['images']['thumbnail']['url']);
+			$entry['images']['standard_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['thumbnail']['url']);
 			$entry['images']['standard_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['standard_resolution']['url']);
 		}
 	}

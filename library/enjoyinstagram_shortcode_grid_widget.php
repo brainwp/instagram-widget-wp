@@ -22,7 +22,7 @@ if("{$u_or_h}"=='hashtag'){
 
 	if (isHttps()) {
 		foreach ($result as $entry) {
-			$entry['images']['thumbnail']['url'] = str_replace('http://', 'https://', $entry->images->thumbnail->url);
+			$entry['images']['standard_resolution']['url'] = str_replace('http://', 'https://', $entry->images->thumbnail->url);
 			$entry['images']['standard_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['standard_resolution']['url']);
 		}
 	}

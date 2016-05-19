@@ -64,7 +64,7 @@ function enjoyinstagram_mb_shortcode_widget($atts) {
 						$caption = '';
 					}
 					if(get_option('enjoyinstagram_carousel_items_number')!='1'){
-						echo "<div class=\"box\"><a title=\"{$caption}\" rel=\"gallery_swypebox\" class=\"swipebox\" href=\"{$entry['images']['standard_resolution']['url']}\"><img  src=\"{$entry['images']['thumbnail']['url']}\"></a></div>";
+						echo "<div class=\"box\"><a title=\"{$caption}\" rel=\"gallery_swypebox\" class=\"swipebox\" href=\"{$entry['images']['standard_resolution']['url']}\"><img src=\"{$entry['images']['standard_resolution']['url']}\"></a></div>";
 					}else{
 						echo "<div class=\"box\"><a title=\"{$caption}\" rel=\"gallery_swypebox\" class=\"swipebox\" href=\"{$entry['images']['standard_resolution']['url']}\"><img style=\"width:100%;\" src=\"{$entry['images']['standard_resolution']['url']}\"></a></div>";
 					}

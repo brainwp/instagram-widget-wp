@@ -58,7 +58,7 @@ $pre_shortcode_content = "<div id=\"owl-".$i."\" class=\"owl-example\" style=\"d
 
 		if (isHttps()) {
 			foreach ($result as $entry) {
-				$entry['images']['thumbnail']['url'] = str_replace('http://', 'https://', $entry['images']['thumbnail']['url']);
+				$entry['images']['standard_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['thumbnail']['url']);
 				$entry['images']['standard_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['standard_resolution']['url']);
 			}
 		}
