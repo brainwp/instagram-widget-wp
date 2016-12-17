@@ -1,30 +1,29 @@
 === Enjoy Instagram ===
 Contributors: (mediabeta, frafra85, fabiodipa)
 Donate link: https://www.google.com/url?q=https%3A%2F%2Fwww.paypal.com%2Fcgi-bin%2Fwebscr%3Fcmd%3D_s-xclick%26hosted_button_id%3D8MXZ37DWHAX46&sa=D&sntz=1&usg=AFQjCNFHixLdowdc2AAEXDYmM9tQBl-TXQ
-Tags: Instagram plugin, Instagram, Instagram gallery, Instagram images, Lightbox Instagram,Grid Instagram view, Instagram responsive, Instagram touch, Instagram photos,Instagram posts, Instagram page, Instagram widgets
+Tags: Instagram,, Instagram feeds, Instagram grid, Instagram carousel, Instagram feed on website, widget instagram, embed instagram feed, responsive carousel, wordpress Instagram, wordpress carousel, Instagram gallery, Instagram images, Lightbox Instagram, Grid Instagram view, Instagram responsive, Instagram touch, Instagram photos,Instagram posts, Instagram page, Instagram widgets
 Requires at least: 3.0.1
-Tested up to: 4.4
-Version: 2.1.3
-Stable tag: 2.1.3
+Tested up to: 4.7
+Version: 3.2
+Stable tag: 3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Instagram on your website with shortcodes and widgets! Images of Instagram profiles and hashtags on posts, pages, sidebars with Carousel and Grid view
+Instagram feeds on your website with Carousel and Grid view. Display Instagram photos with shortcodes and widgets for Instagram profiles and hashtags on posts, pages, sidebar.
 
 == Description ==
 
-= "Enjoy Instagram supports the new Instagram API, released 17th November 2015" =
 
-= Show Instagram Photos in your website! =
+= Instagram pictures in your website with carousel and grid view! =
 
 Publish easily Instagram photos in your pages, posts, sidebars thanks to simple shortcodes and widgets.
 
 Each photo can be shown in Carousel and Grid mode with Lightbox effect.
 Everything is responsive and optimized for mobile devices.
 
-= Here is Live Demo: = http://www.mediabeta.com/enjoy-instagram/
+= Here is Live Demo: = http://www.mediabetaprojects.com/enjoy-instagram-premium/instagram-feeds-in-your-website-enjoy-instagram-free/
 
-= Basic Features =
+= Enjoy Instagram Basic Features =
 
 * Show pictures of Instagram profiles and/or Hashtags
 * Grid View
@@ -37,21 +36,35 @@ Everything is responsive and optimized for mobile devices.
 * Widgets for sidebars
 * Touch
 * Completely responsive and Optimized Mobile Devices
+* NEW: pictures with squared format supported
+* NEW: standard resolution in lightbox view
 
 = Very Simple Installation and Configuration =
 * http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/
 
-= PREMIUM VERSION =
+= Enjoy Instagram PREMIUM VERSION =
 
-= The first and alone wordpress plugin = that gives you the chance to choose which Instagram photos display in your website.
+= The first and alone wordpress plugin = that gives you the chance to have a useful and amazing Moderation Panel!
+In the premium configuration you will choose which Instagram photos display in your website.
 
-In the premium configuration you will have a useful and amazing Moderation Panel!
+= Features introduced in the last premium version =
+ 
+* NEW - multi hashtag supported 
+* NEW - pictures with squared format supported
+* NEW - grid view with border between pictures
+* NEW - video visualization for browser supporting  HTML5
+* NEW - performance improvement
+* NEW - cleaning and optimization code
+* NEW - improvement for css and js loading
+* NEW - better management of loading images for Grid view
+* NEW - better management for a big number of pictures in line with the latest Instagram guidelines
 
 = See LIVE PREVIEW: = http://www.mediabetaprojects.com/enjoy-instagram-premium/
 
-* NEW Polaroid View to overlay images as polaroid pictures
-* NEW Album View to show your pictures organized for username and or hashtags
-* NEW Badge View that will help you link to and promote your Instagram web profile
+Other features:
+* Polaroid View to overlay images as polaroid pictures
+* Album View to show your pictures organized for username and or hashtags
+* Badge View that will help you link to and promote your Instagram web profile
 * Autoreload Stream of Photos
 * Moderation Panel: In real time you can moderate new photos and decide to approve and to publish or to rejected (Watch how it works:
 [youtube https://www.youtube.com/watch?v=W6gNqlghbLE]
@@ -80,12 +93,16 @@ Installation and Configuration are very simple :
 
 == Frequently Asked Questions ==
 
+= “Important: "Instagram has changed its API. You need to install the latest version of our plugin and then, necessarily, you'll have to disconnect and then reconnect your Instagram account (from the "settings" page) in order to keep your Enjoy Plugin Instagram functioning after the 1st of June ". =
+
+—————
+
 = How to Install Enjoy Instagram WordPress Plugin =
 http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/
 
 
 = My profile disappeared. What’s happened? =
-Repeat Step 01 and Step 02 again. 
+Sometimes, when you upgrade the plugin you need also to hook again your Instagram profile. So repeat the step that you can see in slide 4 of this presentation http://www.mediabetaprojects.com/enjoy-instagram-premium/install-enjoy-instagram-wordpress-plugin/ 
 
 
 = Where can i find ShortCodes ? =
@@ -95,8 +112,7 @@ If you do not see the button of shortcodes, ​you can use these ​shortcode​
 [enjoyinstagram_mb] -> Carousel View
 [enjoyinstagram_mb_grid] -> Grid View
 
-In the Setting section yon can customize grid and/or Carousle view 
-
+In the Setting section yon can customize grid and/or Carousel view 
 
 
 == Screenshots ==
@@ -145,7 +161,7 @@ In the Setting section yon can customize grid and/or Carousle view
 = 1.6.5 =
 * Bug Fix
 = 2.0 =
-* New Instagram API
+* Small Bug Fixed
 = 2.1 =
 * Small Bug Fixed
 = 2.1.1 =
@@ -154,6 +170,14 @@ In the Setting section yon can customize grid and/or Carousle view
 * Banner Removed
 = 2.1.3 =
 * Add Shortcakes Info
+= 3.0 =
+* New Instagram Api Implementation
+= 3.1 =
+* Fixed: Minor issues
+= 3.2 =
+* New: pictures with squared format supported
+* Fixed: Minor issues
+
 
 == Upgrade Notice ==
 
@@ -190,7 +214,7 @@ In the Setting section yon can customize grid and/or Carousle view
 = 1.6.5 =
 * Bug Fix
 = 2.0 =
-* New Instagram API
+* Small Bug Fixed
 = 2.1 =
 * Small Bug Fixed
 = 2.1.1 =
@@ -199,3 +223,10 @@ In the Setting section yon can customize grid and/or Carousle view
 * Banner Removed
 = 2.1.3 =
 * Add Shortcakes Info
+= 3.0 =
+* New Instagram Api Implementation
+= 3.1 =
+* Fixed: Minor issues
+= 3.2 =
+* New: pictures with squared format supported
+* Fixed: Minor issues

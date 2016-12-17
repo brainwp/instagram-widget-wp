@@ -11,7 +11,7 @@ class add_enjoyinstagram_button {
      *
      * @return void
      */
-    function add_enjoyinstagram_button() {
+    function __construct() {
         // Set path to editor_plugin.js
         $this->path = plugins_url('/',__FILE__);
 

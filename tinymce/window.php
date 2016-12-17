@@ -23,7 +23,7 @@ global $wp_scripts;
         <form name="enjoyinstagram" action="#">
             <table border="0" cellpadding="4" cellspacing="0" style="margin:0 auto;">
                 <tr>
-                    <td colspan="2">Insert Enjoy Instagram Shortcode</td>
+                    <td colspan="2">Insert Enjoy Plugin for Instagram Shortcode</td>
                     </tr><tr>
                     <td colspan="2" style="height:100px;">
                         <input type="radio" name="newshortcode" id="id_shortcode_carousel" value="enjoyinstagram_mb" checked/> <label for="id_shortcode_carousel" >Carousel View</label>

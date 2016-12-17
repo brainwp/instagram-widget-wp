@@ -28,7 +28,7 @@
         },
         getInfo: function() {
             return {
-                longname: 'Plugin to add Enjoy Instagram Button',
+                longname: 'Plugin to add Enjoy Plugin for Instagram Button',
                 author: 'Mediabeta Srl',
                 authorurl: 'http://www.mediabeta.com/',
                 infourl: 'http://www.mediabeta.com/',

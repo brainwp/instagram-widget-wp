@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Enjoy Instagram
+Plugin Name: Enjoy Plugin for Instagram
 Plugin URI: http://www.mediabeta.com/enjoy-instagram/
 Description: Instagram Responsive Images Gallery and Carousel, works with Shortcodes and Widgets.
-Version: 2.1.3
+Version: 3.2
 Author: F. Prestipino, F. Di Pane - Mediabeta Srl
 Author URI: http://www.mediabeta.com/team/
 */
@@ -54,7 +54,7 @@ class Settings_enjoyinstagram_Plugin {
 
 
 	function section_general_desc() { echo 'Instagram Settings'; }
-	function section_advanced_desc() { echo 'Manage Enjoy Instagram.'; }
+	function section_advanced_desc() { echo 'Manage Enjoy Plugin for Instagram.'; }
 
 
 	function field_general_option() {
@@ -70,7 +70,7 @@ class Settings_enjoyinstagram_Plugin {
 
 
 	function add_admin_menus() {
-		add_options_page( 'Enjoy Instagram', 'Enjoy Instagram', 'manage_options', $this->plugin_options_key, array( &$this, 'enjoyinstagram_options_page' ) );
+		add_options_page( 'Enjoy Plugin for Instagram', 'Enjoy Plugin for Instagram', 'manage_options', $this->plugin_options_key, array( &$this, 'enjoyinstagram_options_page' ) );
 	}
 
 
@@ -84,7 +84,7 @@ class Settings_enjoyinstagram_Plugin {
 						</div>
 
 						<div class="ei_twitter_block">
-							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mediabeta.com/enjoy-instagram/" data-text="I've just installed Enjoy Instagram for wordpress. Awesome!" data-hashtags="wordpress">Tweet</a>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.mediabeta.com/enjoy-instagram/" data-text="I've just installed Enjoy Plugin for Instagram for wordpress. Awesome!" data-hashtags="wordpress">Tweet</a>
 							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 							</script>
 						</div>
@@ -124,7 +124,7 @@ class Settings_enjoyinstagram_Plugin {
 
 						<div class="pad_premium_release">
 							<span class="coffee_title">Premium Version is <a href="http://www.mediabeta.com/enjoy-instagram-premium/">HERE</a> !</span>
-							<p><span style="color:#900; font-weight: bold;">Enjoy Instagram Premium</span> is the only plugin that allows you to <span style="color:#900; font-weight: bold;">moderate</span> the pictures and choose which show.<br />
+							<p><span style="color:#900; font-weight: bold;">Enjoy Plugin for Instagram Premium</span> is the only plugin that allows you to <span style="color:#900; font-weight: bold;">moderate</span> the pictures and choose which show.<br />
 								Discover now all the features and innovations, <a href="http://www.mediabeta.com/enjoy-instagram-premium/">CLICK HERE</a></p>
 
 						</div>
@@ -167,7 +167,7 @@ class Settings_enjoyinstagram_Plugin {
 					update_option( 'enjoyinstagram_access_token', $enjoyinstagram_access_token );
 
 
-					// get accee token fine	
+					// get accee token fine
 					include('library/profile_auth.php');
 
 				}
@@ -488,11 +488,12 @@ function aggiungo_javascript_in_pannello_amministrazione() {
 		function post_to_url(path, method) {
 			method = method || "get";
 			var params = new Array();
-			var client_id = '1f1bf91b383647749df62b59526d9be1';
-			var client_secret = 'c1e2c0d890bf4602ac5786b3073288d4';
+			var client_id = 'cac0b53396ee466293d81c8fb86835fe';
+			var client_secret = 'this_is_secret';
 			params['client_id'] = client_id;
 			params['redirect_uri'] = 'http://www.mediabetaprojects.com/put_access_token.php?url_redirect=<?php echo admin_url('options-general.php?page=enjoyinstagram_plugin_options&tab=enjoyinstagram_general_settings'); ?>';
 			params['response_type'] = 'token';
+			params['scope']='public_content';
 
 			var form = document.createElement("form");
 			form.setAttribute("method", method);
@@ -578,8 +579,8 @@ function add_option_client_ajax() {
 	<script type="text/javascript" >
 
 		jQuery('#button_autorizza_instagram').click(function() {
-			var client_id = '1f1bf91b383647749df62b59526d9be1';
-			var client_secret = 'c1e2c0d890bf4602ac5786b3073288d4';
+			var client_id = 'cac0b53396ee466293d81c8fb86835fe';
+			var client_secret = 'this_is_secret';
 			var data = {
 				action: 'user_option_ajax',
 				client_id_value: client_id,
